@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cura</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <div class="top-left">
+   <i class="fa-brands fa-whatsapp"></i>
+
+  </div>
+
+  <div class="top-right">
+    <span>055555555 <i class="fa-solid fa-phone"></i></span>
+    <span>info@domain.com <i class="fa-solid fa-envelope"></i></span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="logo">
+   <a href="/index.html">
+    <img src="images/69e62302a73767ad06312dc657e37b126740e563.png" alt="Cura">
+   </a> 
+  </div>
+
+  <nav class="nav "  >
+    <a href="#hero">الرئيسية</a>
+    <a href="#about">من نحن </a>
+    <a href="#packgeds">الجلسات والبكجات</a>
+    <a href="#booking">الحجز و الاستفسار</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+
+  <div class="header-actions">
+    <button class="btn-book"    >
+    <a href="galsa.html" style="color: #EEF4FA;">
+      احجزي موعدك
+    </a>  
+    </button>
+  <div class="header-right">
+  
+<i class="fa-solid fa-bars" id="burger" ></i>
+ <nav class="serves" id="navMenu" >
+    <a href="#hero">الرئيسية</a>
+    <a href="#about">من نحن </a>
+    <a href="#packgeds">الجلسات والبكجات</a>
+    <a href="#booking">الحجز و الاستفسار</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+ </div>
+ </div>
+</header>
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+
+    <!-- Image -->
+    <div class="hero-image">
+      <!-- حط صورتك هنا -->
+      <img src="images/screencapture-figma-design-y3JQNjg3N7eIPDoXoeGqub-2025-12-30-18_27_04.png" alt="جلسات مساج">
+    </div>
+
+    <!-- Content -->
+    <div class="hero-content">
+      <h1>
+        جلسات مساج نسائي في<br>
+        راحة منزلك
+      </h1>
+
+      <p>
+        تجربة استرخاء وخصوصية بخدمة احترافية
+        تصل إليك أينما كنت
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn-primary" onclick="bookNow('جلسة مساج')">
+              <a href="galsa.html" style="color: #EEF4FA;">
+  احجزي جلسة الآن
+    </a>  
+         
+        </button>
+        <button class="btn-outline" onclick="document.getElementById('packages').scrollIntoView({behavior:'smooth'})">
+          <a href="#packgeds">
+                تصفح البكجات
+          </a>
+      
+        </button>
+      </div>
+
+      <!-- Slider dots (شكل فقط) -->
+      <div class="hero-dots">
+        <!-- <span></span>
+        <span class="active"></span>
+        <span></span> -->
+      </div>
+
+      <!-- Arrows (شكل فقط) -->
+      <div class="hero-arrows">
+        <!-- <button>‹</button>
+        <button>›</button> -->
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- About -->
+<section class="about-section" id="about">
+  <div class="about-inner">
+
+    <!-- Icon / Illustration -->
+    <div class="about-icon">
+      <!-- مكان الصورة -->
+      <img src="images/screencapture-figma-design-y3JQNjg3N7eIPDoXoeGqub-2025-12-30.png" alt="من نحن">
+    </div>
+
+    <!-- Content -->
+    <div class="about-content">
+      <h2>من نحن</h2>
+      <p>
+        نحن منصة متخصصة في تقديم خدمات المساج والعناية
+        النسائية داخل المنزل، نركز على الراحة، التنظيم،
+        وسهولة الحجز. نؤمن أن العناية الذاتية تبدأ بتجربة
+        مريحة وآمنة تصل إليك بخصوصية واهتمام كامل.
+      </p>
+
+      <a href="#" class="about-link">
+        اعرف المزيد →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Packages -->
+<section class="packages-section" id="packgeds">
+  <h2 class="section-title">بكجات مصممة لراحتك</h2>
+
+  <div class="packages-grid">
+
+    <!-- Card 1 -->
+    <div class="package-card">
+      <!-- مكان الصورة -->
+  
+
+      <h3>بكج تنظيف بشرة</h3>
+            <h5> جلسة واحده تناسب احتياجك الفوري</h5>
+
+      <ul>
+        <li> جلسة واحدة  <i class="fa-regular fa-circle-check"></i></li>
+        <li>أدوات معقمة <i class="fa-regular fa-circle-check"></i></li>
+        <li>مرونة في المواعيد  <i class="fa-regular fa-circle-check"></i></li>
+      </ul>
+
+      <button onclick="bookNow('بكج تنظيف بشرة')">
+        احجزي الآن
+      </button>
+    </div>
+
+    <!-- Card 2 (Featured) -->
+    <div class="package-card featured">
+      <span class="featured-badge">الأكثر طلبًا</span>
+
+    
+
+      <h3>بكج الحمام المغربي</h3>
+            <h5>راحه مستمر بافضل قيمه</h5>
+
+      <ul>
+        <li>جلسات متكاملة <i class="fa-regular fa-circle-check"></i></li>
+        <li>فريق محترف  <i class="fa-regular fa-circle-check"></i></li>
+        <li>أولوية حجز  <i class="fa-regular fa-circle-check"></i></li>
+      </ul>
+
+      <button onclick="bookNow('بكج الحمام المغربي')">
+        احجزي الآن
+      </button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="package-card">
+     
+
+      <h3>بكج العروس</h3>
+      <h5> تجربة متكامله للراحه اعلي</h5>
+      <ul>
+        <li>جلسة واحدة <i class="fa-regular fa-circle-check"></i></li>
+        <li>مدة 60 دقيقة <i class="fa-regular fa-circle-check"></i></li>
+        <li>    حجز مرن <i class="fa-regular fa-circle-check"></i>  </li>
+      </ul>
+
+      <button onclick="bookNow('بكج العروس')">
+        احجزي الآن
+      </button>
+    </div>
+
+  </div>
+</section>
+<!-- Booking -->
+<section class="booking-section" id="booking">
+  <div class="booking-inner">
+
+    <!-- Info -->
+    <div class="booking-info">
+      <img src="images/screencapture-figma-design-y3JQNjg3N7eIPDoXoeGqub-2025-12-30-18_39_24.png">
+      <h2>احجزي موعدك الآن</h2>
+      <p>
+        اختاري الخدمة المناسبة وحددي الوقت والمكان،
+        وسيتم التواصل معك فورًا لتأكيد الحجز.
+      </p>
+
+      <ul class="booking-features">
+        <li>✔ فريق نسائي محترف</li>
+        <li>✔ أدوات معقمة وآمنة</li>
+        <li>✔ مواعيد مرنة</li>
+        <li>✔ خصوصية تامة</li>
+      </ul>
+    </div>
+
+    <!-- Form -->
+    <form class="booking-form" id="bookingForm">
+      <input type="text" id="service" placeholder="الخدمة" required>
+
+      <div class="form-row">
+        <input type="date" id="date" required>
+        <input type="time" id="time" required>
+      </div>
+
+      <input type="text" id="location" placeholder="المدينة / الحي" required>
+      <input type="tel" id="phone" placeholder="رقم الهاتف" required>
+
+      <textarea id="notes" placeholder="ملاحظات إضافية (اختياري)"></textarea>
+
+      <button type="submit">تأكيد الحجز</button>
+    </form>
+
+  </div>
+</section>
+<!-- Why Us -->
+<section class="reviews-section" id="contact">
+  <div class="reviews-wrapper">
+
+    <!-- Review Card -->
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+
+      <p class="review-text">
+        "أول مرة أحس بالراحة كده في جلسة
+        منزلية"
+      </p>
+
+      <span class="review-name">ريم</span>
+    </div>
+
+    <!-- Dots -->
+    <div class="review-dots">
+      <!-- <span></span>
+      <span class="active"></span>
+      <span></span> -->
+    </div>
+
+  </div>
+
+  <!-- Right Content -->
+  <div class="reviews-content">
+    <h2>تجربة عناية منزلية بمعايير احترافية</h2>
+    <p>
+      نقدم لك تجربة عناية منزلية متكاملة تجمع بين الراحة،
+      التنظيم وجودة الخدمة. نؤمن بأن التفاصيل تبدأ من سهولة
+      الحجز، مرورًا بالالتزام، وصولًا إلى تجربة هادئة تشعرك
+      بالاسترخاء والثقة داخل منزلك. كل جلسة مصممة بعناية
+      لتناسب احتياجاتك وتمنحك وقتًا خاصًا للاهتمام بنفسك.
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="main-footer">
+  <div class="footer-inner">
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h4>تواصل معنا</h4>
+
+      <div class="footer-item">+966 50 123 4567 <i class="fa-solid fa-comment"></i></div>
+      <div class="footer-item">+966 11 234 5678 <i class="fa-solid fa-phone"></i></div>
+      <div class="footer-item">info@Domain.com <i class="fa-solid fa-envelope"></i></div>
+    </div>
+
+    <!-- Services -->
+    <div class="footer-col">
+      <h4>الخدمات</h4>
+      <ul>
+        <li>مساج استرخاء</li>
+        <li>مساج علاجي</li>
+        <li>عناية بالأظافر</li>
+        <li>سبا منزلي</li>
+      </ul>
+    </div>
+
+    <!-- Menu -->
+    <div class="footer-col">
+      <h4>القائمة الرئيسية</h4>
+      <ul>
+        <li>    <a href="#home">الرئيسية</a></li>
+        <li>    <a href="#about">من نحن </a>
+</li>
+        <li>    <a href="#packgeds">الجلسات والبكجات</a>
+</li>
+        <li>    <a href="#booking">الحجز و الاستفسار</a>
+</li>
+        <li>    <a href="#contact">تواصل معنا</a>
+ </li>
+      </ul>
+    </div>
+
+    <!-- Logo -->
+    <div class="footer-col footer-logo">
+      <img src="images/69e62302a73767ad06312dc657e37b126740e563.png" alt="Cura">
+      <h1 style="color:#2C5569;">ايكيورا</h1>
+      <p>
+        تجربة عناية منزلية مريحة
+        بجلسة احترافية وخصوصية
+        كاملة.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © جميع الحقوق محفوظة
+  </div>
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+<script>
+const WHATSAPP_NUMBER = "201021219588"; // ← غيره لرقمك
+
+document.getElementById("bookingForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const data = {
+    service: service.value,
+    date: date.value,
+    time: time.value,
+    location: location.value,
+    phone: phone.value,
+    notes: notes.value
+  };
+
+  // حفظ البيانات
+  localStorage.setItem("bookingData", JSON.stringify(data));
+
+  // رسالة واتساب
+  const message = `
+طلب حجز جديد
+------------------
+الخدمة: ${data.service}
+التاريخ: ${data.date}
+الوقت: ${data.time}
+المكان: ${data.location}
+رقم الهاتف: ${data.phone}
+ملاحظات: ${data.notes || 'لا يوجد'}
+  `;
+
+  window.open(
+    `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,
+    "_blank"
+  );
+});
+</script>
+
+</body>
+</html>
