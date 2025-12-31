@@ -323,6 +323,14 @@ display: block;
 
 }
 }
+@media(max-width:1px){
+.header- i{
+display: block;
+
+}
+}
+
+
 
 
 .serves{
