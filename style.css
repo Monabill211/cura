@@ -26,8 +26,6 @@ body {
   background: var(--bg);
   padding: 8px 60px;
   display: flex;
-  font-size: 14px;
-      justify-content: space-around;
     font-size: 14px;
     flex-direction: row;
 }
@@ -336,21 +334,21 @@ body {
 .booking-section {
   background: var(--bg);
   padding: 70px 50px;
-      width: 90%;
+      width: 50%;
     margin: auto;
 }
 
 .booking-inner {
-  display: flex;
-  gap: 60px;
-  align-items: flex-start;
+    display: flex;
+    gap: 60px;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 /* Info */
 .booking-info {
-  max-width: 420px;
+  /* max-width: 420px; */
 }
 
 .booking-info h2 {
