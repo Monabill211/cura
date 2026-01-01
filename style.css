@@ -5,6 +5,9 @@
   --text: #1F2D33;
 }
 
+html,body{
+  overflow-x: hidden;
+}
 * {
   box-sizing: border-box;
   font-family: 'Cairo', sans-serif;
