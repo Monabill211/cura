@@ -335,7 +335,9 @@ body {
 /* Booking */
 .booking-section {
   background: var(--bg);
-  padding: 80px 60px;
+  padding: 70px 50px;
+      width: 90%;
+    margin: auto;
 }
 
 .booking-inner {
