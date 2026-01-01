@@ -11,7 +11,9 @@ html,body{
 * {
   box-sizing: border-box;
   font-family: 'Cairo', sans-serif;
-
+  outline: 1px solid red;
+word-wrap: break-word;
+overflow-wrap: break-word;
 }
 a{
   text-decoration: none;
@@ -660,7 +662,7 @@ position: absolute;
 top: 70px;
 right: 0;
 background: #fff;
-width: 1200%;
+/* width: 120%; */
 gap: 10px;
 padding: 20px 0;
 display: none;
