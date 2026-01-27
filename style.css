@@ -59,7 +59,7 @@ body {
 }
 
 .top-right span {
-  margin-right: 15px;
+  margin-right: 8px;
   color: var(--text);
 }
 
@@ -289,7 +289,7 @@ body {
 /* Packages */
 .packages-section {
   background: var(--bg);
-  padding: 80px 60px;
+  padding: 60px 30px;
   text-align: center;
 }
 
