@@ -121,7 +121,7 @@ body {
   display: flex;
   align-items: center;
   gap: 60px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* Image */
@@ -241,7 +241,7 @@ body {
   display: flex;
   align-items: center;
   gap: 60px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -405,7 +405,7 @@ right: 115px;
 .booking-inner {
     display: flex;
     gap: 60px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -443,9 +443,9 @@ right: 115px;
 /* Form */
 .booking-form {
   background: #fff;
-  padding: 30px;
+  padding: 40px;
   border-radius: 18px;
-  width: 340px;
+  width: 440px;
 }
 
 .booking-form input,
@@ -485,7 +485,7 @@ right: 115px;
   display: flex;
   align-items: center;
   gap: 80px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
